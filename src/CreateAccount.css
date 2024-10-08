@@ -1,0 +1,94 @@
+.container {
+    background-color: #f9f9f9; 
+    padding: 40px;
+    border-radius: 12px; 
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); 
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); 
+}
+
+h2 {
+    color: #61DAFB; 
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: 600; 
+}
+
+form label {
+    display: block;
+    font-weight: 600; 
+    margin-bottom: 8px;
+    color: #61DAFB; 
+    font-family: 'Helvetica Neue', sans-serif; 
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd; 
+    border-radius: 6px; 
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+form input:focus {
+    border-color: #007aff; 
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 122, 255, 0.5); 
+}
+
+form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 6px; 
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Helvetica Neue', sans-serif; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+form button:hover {
+    background-color: #0051a8; 
+    transform: translateY(-1px); 
+}
+
+.errorMessage {
+    color: red;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin: 0.5rem 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.invalid {
+    color: red;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin: 0.5rem 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.valid {
+    color: rgb(0, 255, 47);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin: 0.5rem 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
